@@ -18,7 +18,7 @@ body {
     color: rgb(16, 2, 2);
     padding: 10px 20px;
     margin: 0 2px;
-    border-radius: 5px;
+    border-radius: 15px;
     cursor: pointer;
     font-size: 16px;
     transition: background-color 0.3s ease;
@@ -83,7 +83,7 @@ body {
   width: 100%; /* Span across the full width */
   background-color: #df7c19; /* Optional: background color to match the page or stand out */
   padding: 5px 10px; /* Optional: add some padding */
-  box-shadow: 0 2px 500px rgba(0,0,0,0.2); /* Optional: add a slight shadow for depth */
+  box-shadow: 0 5px 500px rgba(0,0,0,0.2); /* Optional: add a slight shadow for depth */
 
 }
 
