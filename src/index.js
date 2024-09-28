@@ -1,4 +1,7 @@
-import "./styles.css";
-import { greeting } from "./greeting.js";
+import './styles.css';
 
-alert(greeting);
+// index.js
+import './buttons';
+
+    
+  
