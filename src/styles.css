@@ -42,8 +42,9 @@ body {
     margin: 0 2px;
     background-color: #cd7e2b;
     padding: 0px 2px;
-    box-shadow: 0 3px 3px rgba(0,0,0,0.2);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
     border-color: #562c1b;
+    border-style:dotted;
     border-width: 2px;
     border-style: solid;
     background-image: url(image/risto.jpeg);
@@ -51,14 +52,13 @@ body {
     background-position: center; /* Center the background image */;
     height: 500px; /* Set a specific height */
     width: 100%; /* Full width */
-    color: rgb(36, 20, 2); /* Text color for visibility *
+    color: rgb(10, 3, 1); 
   }
 
 
   id {
     display: flex;
     justify-content: space-between;
-    position:fixed;
     flex-direction: row;
     background-color: #fff;
     border-radius: 3px;

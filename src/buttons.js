@@ -2,7 +2,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     const topRow = document.getElementById('top-row');
     const content = document.getElementById('content');
-    
+
   
     const buttons = [
       { id: 'Home', content: "Venite al nostro splendido ristorante, la cordialità del personale, il confort dell'ambiente e la squisitezza del menù vi stupiranno !!" },
