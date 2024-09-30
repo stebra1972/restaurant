@@ -36,7 +36,8 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
     width: 100%;
-    background-color: #619297;
+    max-height: 50%;
+    background-color: #cd7e2b;
     padding: 0px 2px;
     box-shadow: 0 3px 3px rgba(0,0,0,0.2);
 }
@@ -64,7 +65,7 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     width: 100%;
-    background-color: #619297;
+    background-color: #1c5156;
     padding: 0px 2px;
     box-shadow: 0 3px 5px rgba(0,0,2,0.2);
     transition: background-color 0.3s ease;

@@ -4,9 +4,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const content = document.getElementById('content');
   
     const buttons = [
-      { id: 'Home', content: 'Contenuto per Home' },
-      { id: 'Menu', content: 'Contenuto per Menu' },
-      { id: 'Contatti', content: 'Contenuto per Contatti' }
+      { id: 'Home', content: "Venite al nostro splendido ristorante, la cordialità del personale, il confort dell'ambiente e la squisitezza del menù vi stupiranno !!" },
+      { id: 'Menu', content: 'PRIMI PIATTI: Penne alla amatriciana, penne alla boscaiola' },
+      { id: 'Contatti', content: 'Tel. 0333-0909090 Fax 0333-090901' }
     ];
   
     buttons.forEach(button => {
