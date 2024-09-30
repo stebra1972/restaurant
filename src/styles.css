@@ -14,7 +14,7 @@ body {
   
   /* Button Styles */
   button {
-    background-color: #e45513;
+    background-color: #8d571efe;
     color: rgb(16, 2, 2);
     padding: 10px 20px;
     margin: 0 2px;
@@ -26,7 +26,7 @@ body {
 
   
   button:hover {
-    background-color: #aa8232e4;
+    background-color: #b98c34e4;
 
   }
   
@@ -36,11 +36,23 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
     width: 100%;
+    height: 900px;
     max-height: 50%;
+    border-radius: 20px;
+    margin: 0 2px;
     background-color: #cd7e2b;
     padding: 0px 2px;
     box-shadow: 0 3px 3px rgba(0,0,0,0.2);
-}
+    border-color: #562c1b;
+    border-width: 2px;
+    border-style: solid;
+    background-image: url(image/risto.jpeg);
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the background image */;
+    height: 500px; /* Set a specific height */
+    width: 100%; /* Full width */
+    color: rgb(36, 20, 2); /* Text color for visibility *
+  }
 
 
   id {
@@ -74,9 +86,10 @@ body {
 
 #top-row {
   display: flex;
-  justify-content: space-between;
+  justify-content:space-around;
   position:fixed;
   flex-direction: row;
+  height: 60px;
   background-color: #cfc46f;
   border-radius: 3px;
   top: 0; /* Align to the top */
@@ -89,7 +102,7 @@ body {
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #f69207;
 
 
 
